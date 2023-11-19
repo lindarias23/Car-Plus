@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>iCar Plus - Control de Inventario</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Bienvenido a iCar Plus</h1>
+        <p>Administra tu inventario de vehículos y repuestos de manera fácil.</p>
+
+        <div class="form-container">
+            <h2>Agregar Vehículo</h2>
+            <form id="vehiculoForm">
+                <label for="descripcion">Descripción:</label>
+                <input type="text" id="descripcion" name="descripcion" required>
+
+                <label for="imagen_url">URL de la Imagen:</label>
+                <input type="text" id="imagen_url" name="imagen_url" required>
+
+                <!-- Agrega más campos según tus necesidades -->
+
+                <button type="button" onclick="agregarVehiculo()">Agregar Vehículo</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
